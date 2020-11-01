@@ -63,6 +63,6 @@ header:
       fr-CH   : *FR
       fr-FR   : *FR
       fr-LU   : *FR
-      fa      : &FA       آرشیو
+      fa      : &FA        آرشیو 
       # @end locale config
     url: /archive.html
