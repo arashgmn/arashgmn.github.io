@@ -15,7 +15,6 @@ article_header:
   background_image: 
     gradient: 'linear-gradient(135deg, rgba(34, 139, 34, .4), rgba(139, 34, 139, .4))'
 
-
 # the article settings
 articles:
   data_source: site.simulation
@@ -28,73 +27,4 @@ articles:
   excerpt_type: text
   show_readmore: false
   show_info: true
-
-
-
-
-
-
-
-# layout: articles
-# title: simulations
-# permalink: 
-# key: simulations
-# cover: /images/saturn.jpg
-# articles:
-#   data_source: site.simulations
-#   show_excerpt: true
-#   show_readmore: true
-#   show_info: true
-
-
-
-
-# layout: articles
-# title: Test with moltiple projects
-# cover: /texture.jpg
-# articles:
-#   data_source: site.longs
-#   show_excerpt: true
-#   show_readmore: true
-#   show_info: true
-
-# layout: "article"
-# titles:
-#   # @start locale config
-#   en      : &EN       Test
-#   en-GB   : *EN
-#   en-US   : *EN
-#   en-CA   : *EN
-#   en-AU   : *EN
-#   fr      : &FR       Teste
-#   fr-BE   : *FR
-#   fr-CA   : *FR
-#   fr-CH   : *FR
-#   fr-FR   : *FR
-#   fr-LU   : *FR
-#   fa      : &FA       تست
-#   # @end locale config
-# key: page-123 
 ---
-
-<div class="article__content" markdown="1">
-
----
-
-Article list with cover, excerpt, read more link and info.
-
-<!--more-->
-
-**front matter:**
-
-    ---
-    layout: articles
-    title: Articles - Item (Cover + Excerpt + Read More + Info)
-    articles:
-      data_source: site.sample_page
-      show_excerpt: true
-      show_readmore: true
-      show_info: true
-    ---
-
-</div>

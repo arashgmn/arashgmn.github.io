@@ -23,7 +23,7 @@ titles:
   fr-FR   : *FR
   fr-LU   : *FR
   # @end locale config
-# key: page-about
+key: 
 permalink: /about.html
 cover: /images/nice.jpg
 mode: immersive
@@ -43,4 +43,4 @@ Who am I?
 
 <!--more-->
 
-A picture of Rango, saying who am I with Zimmer's music...
+Bla Bla Bla

@@ -14,7 +14,7 @@ key: persian1
 
 و این است معادله‌ی اول فریدمان
 
-$$\big( \frac{\dot{a}}{a} \big)^2 = \frac{8\pi G}{3}\big[\Omega_{r,0} a^{-4} + \Omega_{m,0} a^{-3}+\Omega_{k,0} a^{-2}+ \Omega_{\Lambda,0}\big]$$
+$$\big( \frac{\dot{a}}{a} \big)^2 = H_0^2[\Omega_{r,0} a^{-4} + \Omega_{m,0} a^{-3}+\Omega_{k,0} a^{-2}+ \Omega_{\Lambda,0}\big]$$
 
 
 # عنوان ۲
