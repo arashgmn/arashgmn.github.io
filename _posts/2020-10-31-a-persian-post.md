@@ -2,6 +2,7 @@
 title: یک پست فارسی
 tag: farsi
 lang: fa
+key: persian1
 ---
 
 

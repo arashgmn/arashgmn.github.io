@@ -1,5 +1,7 @@
 ---
-title: A very Long post
+title: Obi-One Kenobi
+key: obiwan
+permalink: /page/obione.html
 tags: long
 ---
 
