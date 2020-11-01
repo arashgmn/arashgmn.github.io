@@ -22,16 +22,20 @@ titles:
   fr-CH   : *FR
   fr-FR   : *FR
   fr-LU   : *FR
+  fa      : &FA       خانه
   # @end locale config
 show_title: false
 articles:
   data_source: paginator.posts
   article_type: BlogPosting
-  show_cover: false
+  show_cover: true    # false
   show_excerpt: true
   show_readmore: true
   show_info: true
 ---
+
+<!-- the hyphen after % strips the whitespace out. Look at here:-->
+<!-- https://shopify.github.io/liquid/basics/whitespace/ -->
 <div class="layout--home">
   {%- include paginator.html -%}
 </div>

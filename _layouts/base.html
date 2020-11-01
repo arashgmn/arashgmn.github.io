@@ -15,9 +15,16 @@ layout: none
     {%- include scripts/variables.html -%}
   </head>
   <body>
+    
+    {%- if page.lang == 'fa' -%}
+      <div class="root" data-is-touch="false" dir="rtl">
+        {{content}} 
+      </div>
+    {%- else -%}
     <div class="root" data-is-touch="false">
-      {{ content }}
+      {{content}} 
     </div>
+    {%- endif -%}
     <script>
       {%- include scripts/common.js -%}
     </script>

@@ -144,4 +144,27 @@ fr-FR:
   <<: *FR
 fr-LU:
   <<: *FR
+
+
+# ## => Persian
+# ########################
+# fa: &FA
+#   SUBSCRIBE               : "اشتراک"
+#   READMORE                : "بیشتر بخوانید"
+#   SEARCH                  : "جستجو"
+#   CANCEL                  : "کنسل"
+#   VIEWS                   : "views"
+#   LAST_UPDATED            : "آخرین به‌روزرسانی"
+#   PREVIOUS                : "قبل"
+#   NEXT                    : "بعد"
+#   ARTICLE_DATE_FORMAT     : "%b %d, %Y"
+#   ARTICLE_LIST_DATE_FORMAT: "%b %d"مقاله "[POST_COUNT] مقاله, [PAGE_COUNT] صفحه."
+#   LICENSE_ANNOUNCE        : "این وبلاگ تحت لیسانس [LICENSE] منتشر شده است."
+#   POST_ON_GITHUB          : "Edit on Github"
+#   FOLLOW_ME               : "Follow me on [NAME]."
+#   FOLLOW_US               : "Follow us on [NAME]."
+#   EMAIL_ME                : "Send me an Email."
+#   EMAIL_US                : "Send us an Email."
+#   COPYRIGHT_DATES         : "2020"
+
 # @end locale config
