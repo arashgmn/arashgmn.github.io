@@ -1,30 +1,22 @@
 ---
-layout: article
 title: یک پست فارسی
 tag: farsi
 lang: fa
-permalink: 
-cover: /images/25401.jpg
-
-# navigation bar on top
-header:
-  theme: dark 
-  background: 'linear-gradient(135deg, rgb(34, 139, 87), rgb(139, 34, 139))'
-
-# cover image
-article_header:
-  type: overlay # don't immerse for posts
-  theme: dark # it chages the color of text, comment if already good.
-  background_color: '#203028' # don't touch! Don't know what it does.
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: /images/25401-th.jpg
 ---
 
 
 این تست زبان فارسی است.
 
+<!--more-->
+
 # عنوان‌ها این‌طور نمایش داده خواهند شد...
 
-و این است.
+و این است معادله‌ی اول فریدمان
 
+$$\big( \frac{\dot{a}}{a} \big)^2 = \frac{8\pi G}{3}\big[\Omega_{r,0} a^{-4} + \Omega_{m,0} a^{-3}+\Omega_{k,0} a^{-2}+ \Omega_{\Lambda,0}\big]$$
+
+
+# عنوان ۲
+ خیلی هم خوب
+## زیر عنوان داریم
+چه زیر عنوانی

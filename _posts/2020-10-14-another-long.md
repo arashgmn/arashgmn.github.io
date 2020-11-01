@@ -1,6 +1,6 @@
 ---
 title: Another long
-tags: long
+tags: tag1
 excerpt: true
 article_type: normal
 show_excerpt: true

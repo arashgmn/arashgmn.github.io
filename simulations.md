@@ -18,7 +18,7 @@ article_header:
 
 # the article settings
 articles:
-  data_source: site.simulations
+  data_source: site.simulation
   type: item
   size: md
   article_type: BlogPosting # the only option

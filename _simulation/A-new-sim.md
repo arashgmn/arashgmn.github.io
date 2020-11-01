@@ -1,7 +1,9 @@
 ---
-title: The last long
-tags: tag5
+title: Sim New
+cover: 
 ---
+
+This is to check the simulation defaulst.
 
 # Simulation's Configuration
 Once the geometry is fixed and properly meshed, we need to choose our CFD model, initial and boundary conditions. 

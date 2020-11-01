@@ -18,7 +18,7 @@ article_header:
 
 # the article settings
 articles:
-  data_source: site.blog
+  data_source: site.posts
   type: item
   size: md
   article_type: BlogPosting # the only option
