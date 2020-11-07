@@ -225,7 +225,7 @@ defaults:
       type: posts
     values:
       layout: article
-      cover: /images/newtons_notes.jpg
+      cover: /images/covers/notes.jpg
       license: false
       sharing: true
       show_edit_on_github: false
@@ -251,7 +251,7 @@ defaults:
       type: simulation
     values:
       layout: article
-      cover: /images/matrix.png
+      cover: /images/covers/matrix.png
       license: false
       sharing: true
       show_edit_on_github: false

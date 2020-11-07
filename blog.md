@@ -2,7 +2,7 @@
 layout: articles
 title: My Blog Posts
 permalink: /blog.html
-cover: /images/1424006.jpg
+cover: /images/covers/moon.jpg
 mode: immersive
 
 header: 

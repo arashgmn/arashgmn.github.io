@@ -5,6 +5,7 @@ key: post-temp
 lang:
 tag: temp
 permalink: 
+#published: false
 ---
 
 A post template for blogging.

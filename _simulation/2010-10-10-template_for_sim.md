@@ -3,7 +3,9 @@ title: Template for simulations
 cover:
 key: sim-temp
 lang:
+tag: temp
 permalink: 
+#published: false
 ---
 
 A simulation template.
@@ -26,3 +28,5 @@ The first paragraph before `<!--more-->` will be interpreted as the excerpt. If 
 # Other considerations
 Nothing. Just write and enjoy!
 
+# A test with [Plotly](https://plotly.com/python/)
+<iframe id="igraph" scrolling="yes" style="border:none;" seamless="seamless" src="https://plotly.com/~arashgmn/58.embed" height="900" width="100%"></iframe>

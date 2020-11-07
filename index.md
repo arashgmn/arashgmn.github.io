@@ -2,7 +2,7 @@
 layout: article
 title: Hello there!
 permalink:  
-cover: /images/unravel.jpg
+cover: /images/covers/MW2.jpg
 mode: immersive
 
 header: 
@@ -28,7 +28,12 @@ These topic can be:
 - topic 2, or
 - topic 3
 
-You can filter them by selecting the tags in the [archive](). 
+You can filter them by selecting the tags in the [archive](/archive.html). 
 
-I appreciate your comments and would be happy to talk with you from the links on at the bottom of the page.
+
+{: .warning}
+**Important note about commenting**
+1. Comments are very welcome!
+2. The commenting system I'm using is a bit wierd. It requires you to log in . But don't worry. You can always always check the last tickbox (*I'd rather post as a guest*), and skip signing up. For a more anonymous comment, just use a fake email like `fake@email.com`.
+3. My current policy is no supervision on the comments which means I'm not responsible for what is there (just saying...).
 

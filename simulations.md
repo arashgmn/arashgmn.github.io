@@ -2,7 +2,7 @@
 layout: articles
 title: My Private Simulations
 permalink: /simulations.html
-cover: /images/saturn.jpg
+cover: /images/covers/aurora.jpg
 mode: immersive
 
 header: 

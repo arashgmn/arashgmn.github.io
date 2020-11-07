@@ -1,31 +1,9 @@
 ---
 layout: article
-titles:
-  # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  # @end locale config
+title: About me
 key: 
 permalink: /about.html
-cover: /images/nice.jpg
+cover: /images/covers/road.jpg
 mode: immersive
 
 header: 
@@ -39,8 +17,10 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 34, .4), rgba(139, 34, 139, .4))'
 ---
 
-Who am I?
-
 <!--more-->
 
-Bla Bla Bla
+## Why am I writing?
+
+I decided to write things not because I want to preserve ideas and discuss about them, but no social media. I think this old habit of blogging has dimmed among all of us due to the distractions we have around us. I'm trying to light my own candle up. *Would you do the same?*
+
+
