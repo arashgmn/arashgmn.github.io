@@ -25,3 +25,7 @@ Gemfile.lock
 _site/
 .jekyll-metadata
 .jekyll-cache/
+
+_simulation/Plotly_embbeding.ipynb
+images/backup_cover/
+_posts/journaling/*
