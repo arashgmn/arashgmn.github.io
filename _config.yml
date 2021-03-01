@@ -55,7 +55,7 @@ author:
   linkedin  : arashgmn # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
   github    : arashgmn # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
-
+  goodreads : arashgmn
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
@@ -69,7 +69,7 @@ paths:
   root    : # title link url, "/" (default)
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
-  rss     : # "/feed.xml" (default)
+  rss     : "/feed.xml"
 
 
 ## => Post
