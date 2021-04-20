@@ -1,6 +1,6 @@
 ---
 layout: articles
-title: My Private Simulations
+title: My Simulations
 permalink: /simulations.html
 cover: /images/covers/aurora.jpg
 mode: immersive

@@ -12,12 +12,17 @@
     // "skins/ocean",
     // "skins/orange",
 
-    "skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}",
+    //"skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}", //Deactivated by arash to add better ones
     // "skins/highlight/tomorrow",
     // "skins/highlight/tomorrow-night",
     // "skins/highlight/tomorrow-night-eighties",
     // "skins/highlight/tomorrow-night-blue",
     // "skins/highlight/tomorrow-night-bright",
+    
+    // Added by arash: Better highlights  
+    "skins/highlight/best",
+    //"skins/highlight/vs",
+    //"skins/highlight/pastie",
 
 
     "common/variables",
@@ -71,4 +76,5 @@
     "layout/404",
 
     "custom"
+
 ;

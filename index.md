@@ -16,24 +16,17 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 34, .4), rgba(139, 34, 139, .4))'
 ---
 
-I am Arash [Āraš] and this is my blog.
+I am Arash and this is my blog.
 
-I write things that interests me in my [blog](/blog.html) and dump my [simulations](/simulations.html) here.
+At the moment I use here for journaling mainly (in the [blog](/blog.html) section). Time to time, I may dump some modeling/coding in the [simulations](/simulations.html) section if I feel there's a problem that interests me.
 
-They are not correct or factual. But it's better to write anyway.
 
-These topic can be:
-
-- my simulations,
-- topic 2, or
-- topic 3
-
-You can filter them by selecting the tags in the [archive](/archive.html). 
+There's also an [archive](/archive.html), which might be useful in future, for searching among all my posts based on their tag.  
 
 
 {: .warning}
 **Important note about commenting**
-1. Comments are very welcome!
-2. The commenting system I'm using is a bit wierd. It requires you to log in . But don't worry. You can always always check the last tickbox (*I'd rather post as a guest*), and skip signing up. For a more anonymous comment, just use a fake email like `fake@email.com`.
-3. My current policy is no supervision on the comments which means I'm not responsible for what is there (just saying...).
+1. Comments are very welcome, but only for the simulations and not my journals! 
+2. The commenting system I'm using is a bit weird. It requires you to log in. I've seen this platform being used almost everywhere, so I started to use it, but honestly, I haven't worked with it much either. Anyway, it wouldn't be a big problem as of now, since I don't have many simulations yet. 
+3. If you need the urge to comment (I genuinely appreciate it, if that is the case) don't worry. You can always check the last tickbox (*I'd rather post as a guest*), and skip signing up. For a more anonymous comment, just use a fake email like `fake@email.com`.
 
