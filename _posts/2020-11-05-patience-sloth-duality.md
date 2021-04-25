@@ -5,7 +5,7 @@ key:
 lang: fa
 tag: [farsi,روزنوشت]
 permalink: 
-# published: false
+published: false
 ---
 
 روزنوشت
