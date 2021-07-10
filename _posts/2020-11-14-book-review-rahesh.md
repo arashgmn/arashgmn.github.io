@@ -3,7 +3,7 @@ title: نقد کتاب ر ه ش
 cover: images/rahesh.jpg
 key: on-cse
 lang: fa
-tag: [review,fa]
+tag: [review,farsi]
 permalink: 
 # published: false
 ---
