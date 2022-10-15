@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - arashgmn
+  
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - arashgmn/al-folio
+  - arashgmn/anisonet-brian
+  - ncase/mental-health
+  - arashgmn/dbs-expert-summit 
+  
