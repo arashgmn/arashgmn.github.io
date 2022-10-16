@@ -98,6 +98,11 @@ google_site_verification:  # your google-site-verification ID (Google Search Con
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
+# Right-to-left scripts
+# -----------------------------------------------------------------------------
+rtl_langs: ["ar","arc","az","dv","he","ku","fa","ur"]
+
+# -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
