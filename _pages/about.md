@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Arash, and this is my website. I'm planning to post cool stuff related to my research or project here. I also write some of my personal (not-very) daily journals here. 
+Hi! I'm Arash, and this is my website. I write posts about cool stuff related to my research or my projects here. I also write of my personal daily journals about society with a (not-very-academic) systemic point ov view. 
 
 **Site is under construction. Dah!**
 

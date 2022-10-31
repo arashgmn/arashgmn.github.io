@@ -6,8 +6,7 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
-  font-family: 'Roboto', 'Noto Naskh Arabic', serif;
-  
+  font-family: 'Roboto', 'Roboto Mono', 'Noto Naskh Arabic', serif;
 }
 
 hr {
@@ -44,7 +43,14 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   font-size: 1.2rem;
+  font-style: italic;
+
+  [dir=rtl] & {
+    border-left: none;
+    border-right: 2px solid var(--global-theme-color);
+  }
 }
+
 
 // Math
 
@@ -592,10 +598,11 @@ footer.sticky-bottom {
   }
 }
 
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
-}
+  }
 
 pre {
   color: var(--global-theme-color);
@@ -608,6 +615,9 @@ pre {
     background-color: transparent;
     border-radius: 0;
     padding: 0;
+    font-family: unset !important;
+    //font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !important;
+    
   }
 }
 
@@ -616,6 +626,7 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-family: monospace;
 }
 
 
@@ -652,6 +663,15 @@ html.transition *:after {
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
-    }
+      
+      [dir=rtl] & {
+        border-right: 5px solid var(--global-theme-color);
+        border-left: none;
+        }
+     }
+    
+    
   }
 }
+
+

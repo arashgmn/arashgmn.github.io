@@ -5,8 +5,7 @@ date:   2022-09-28
 description: در باب مسئولیت ما در قبال سیستم حکومت
 tags: روزنوشت
 lang: fa
-#categories: sample-posts
-#publish: false
+categories: daily-journal
 ---
 
 یکی از دوستان در گروهی می‌گفت که خجالت می‌کشه که ما گذاشتیم جامعه سمت بره که فلان آدمای محترم رو دستگیر کنن و یا غیره و غیره.
