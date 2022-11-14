@@ -24,6 +24,6 @@ It's fascinating how the brain computes. We've got so much processing power. So 
 
 I enjoy when I see a device computing things. Would be even meta if it learns how to handle its input. That's brain. But, quite orthogonally, I also envy music in a meaningfully significant way. I see it as a magical phenomenon really.
 
-> "Music is a strong magic." Said Dumbledore, crying his tears.
+> "Music is a strong magic." Said Dumbledore, wiping his tears.
 
 I know the my question: it is the dynamical reachness of my computing reservoir. The utmost goal would be quantifying that. But, for know, I would like to focus only on the synaptic plasticity part of it. Indeed elegant. But barely understandable for an experimentalist. So the question is how can explain this to my grandmother? What is the good daily-life, exmaple and what is the correct cartoon? If I find that, then the issue is solved.
