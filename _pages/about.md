@@ -21,6 +21,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I'm Arash, and this is my website. I write posts about cool stuff related to my research or my projects here. I also write of my personal daily journals about society with a (not-very-academic) systemic point ov view. 
 
+I'm intersted in **applications of computational learning theory** in physical systems. Simply put, I like to understand how systems in nature can *possibly* perform a particular computation or task.
+
+
 **Site is under construction. Dah!**
 
 -------
