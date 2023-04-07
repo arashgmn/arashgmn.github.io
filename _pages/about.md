@@ -2,34 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>This is not me!</p>
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Goettingen, Germany</p>
+  # address: >
+  #  <p>This is not me!</p>
+  #  <p>555 your office number</p>
+  #  <p>123 your address street</p>
+  #  <p>Goettingen, Germany</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Arash, and this is my website. I write posts about cool stuff related to my research or my projects here. I also write of my personal daily journals about society with a (not-very-academic) systemic point ov view. 
+Hi, and thanks for coming by!
 
-I'm intersted in **applications of computational learning theory** in physical systems. Simply put, I like to understand how systems in nature can *possibly* perform a particular computation or task.
+I'm Arash, and this is my website, where I write about stuff that matter to me or interest me. At the moment, I'm doing my PhD at [Tetzlab](tetzlab.com) on the intersection of computational neuroscience, biophysics, and statistical machine learning. 
 
+I’m an engineer and a physicist by training, a mathematician by education, a researcher by job title, and an astronomer by hobby. I’m also trying to be a better being, and I believe writing is one way to do so.
 
-**Site is under construction. Dah!**
+I'm living in Germany in the little city of Göttingen, not too far from the grave of Max Plank, David Hilbert, Wilhelm Weber, Felix Klein, Ludwig Prandtl, Max Born, Karl Schwartzshild, and Gauss. But if you are not around, we can get in touch through any of thouse social media icons you see down below. 
 
--------
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

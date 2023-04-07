@@ -3,7 +3,7 @@ layout: post
 title: نقد کتاب ر ه ش
 cover: images/rahesh.jpg
 lang: fa
-tag: review
+tags: review book
 description: نظر من در مورد کتاب رهش در goodreads
 ---
 
