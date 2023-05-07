@@ -6,13 +6,6 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
-  
-  /**************************************************************************
-  * The followin two lines are added to handle rtl direction in the layout
-  * after the helpful suggestion here:
-  * https://stackoverflow.com/a/39581863/7106957
-  * Now, the "dir" attribute in the layout works.
-  ***************************************************************************/
   unicode-bidi: bidi-override !important;
   direction: unset !important;
   
@@ -34,9 +27,6 @@ body.sticky-bottom-footer {
 .container {
   max-width: $max-content-width;
 }
-
-
-
 
 // Profile
 .profile {
