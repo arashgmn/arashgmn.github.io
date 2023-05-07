@@ -17,9 +17,9 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: "Vazirmatn"; //change the font for rtl scripts
   
   [dir=rtl] & {
-    font-family: "Vazirmatn"; //change the font for rtl scripts
     span {
       font-family: monospace; //except of the code blocks
     }

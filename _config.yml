@@ -145,11 +145,11 @@ related_blog_posts:
 # the information below.
 giscus:
   repo: arashgmn/arashgmn.github.io      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
+  repo_id: R_kgDOH-U8kA
   category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
+  category_id: DIC_kwDOH-U8kM4CWVH4
   mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
+  strict: 0                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
   input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
@@ -164,8 +164,8 @@ disqus_shortname: arashgmn-github-io # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: #medium.com
-    rss_url: #https://medium.com/@al-folio/feed
+  #- name: #medium.com
+  #  rss_url: #https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -175,6 +175,7 @@ collections:
   news:
     defaults:
       layout: post
+      
     output: true
     permalink: /news/:path/
   projects:
@@ -242,7 +243,14 @@ defaults:
       path: "assets" # was previously this "assets/**/*.*"
     values:
       sitemap: false
-
+            
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      related_posts: false
+      toc:
+        sidebar: left
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------

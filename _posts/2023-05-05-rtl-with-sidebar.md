@@ -6,9 +6,7 @@ description: RTL even in sidebar
 lang: fa
 tags: internationalization
 categories: sidebar toc 
-related_posts: false
-toc:
-  sidebar: right
+published: false
 ---
 
 # عنوان
