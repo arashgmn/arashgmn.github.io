@@ -3,9 +3,9 @@ layout: post
 title: پیش‌نیاز دیالوگ
 date:  2022-10-16
 description: یک تمرین ذهنی برای زمانی که وقت گفتگو رسید
-tags: روزنوشت
+tags: mahsa social
 lang: fa
-categories: daily-journal
+categories: journal
 comments: true
 ---
 

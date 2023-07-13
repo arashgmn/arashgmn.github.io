@@ -3,8 +3,8 @@ layout: post
 title: کشف بدیهی
 description: کشف مجدد من از اولین و بدیهی‌ترین حسم در مورد بودن در روستوک
 lang: fa
-tags: روزنوشت
-categories: daily-journal
+tags: reflection complain
+categories: journal
 ---
 
 

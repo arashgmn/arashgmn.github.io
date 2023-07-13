@@ -2,8 +2,8 @@
 layout: post
 title: Do things right!
 description: Why one has to do things right
-tags: روزنوشت
-categories: daily-journal
+tags: reflection social
+categories: journal
 ---
  
 

@@ -4,8 +4,9 @@ title:  مبانی مبارزه خشونت پرهیز
 date:  2023-04-29
 description: برداشت
 cover: img/nonviolence-hb.png
-tags: book review
+tags: social
 lang: fa
+categories: review book
 toc:
   sidebar: right
 ---

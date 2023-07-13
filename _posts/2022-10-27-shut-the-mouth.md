@@ -3,9 +3,9 @@ layout: post
 title: دهانت را ببند
 date:  2022-10-16
 description: خارج‌نشینان چه می‌توانند بگویند
-tags: روزنوشت
+tags: reflection podcast
 lang: fa
-categories: daily-journal
+categories: journal
 ---
 
 داخل وضعیت اینه: آدم‌ها به خاطر کنششون کشته می‌شن. بی‌کنشی یعنی حیوون بودن.

@@ -2,7 +2,8 @@
 layout: post
 title: On social media
 description: and how not to fall in their rabbit hole
-categories: daily-journal
+tags: reflection
+categories: journal
 ---
  
 I wear glasses. I have an eye impairment. Glasses are amazing. A roughly 500-year technology that still amuses me when I upgrade my glass number (after my eyes downgrade). Seeing things crystal clear is a luxury that helped people like mine with some particular type of biological impairment to move on.

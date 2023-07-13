@@ -3,7 +3,7 @@ layout: post
 title: Self-supervision
 date:  2022-12-08
 description: A realization on academia and education
-tags: learning
+tags: reflection PhD
 lang: en
 categories: research
 ---

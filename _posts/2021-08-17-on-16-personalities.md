@@ -2,7 +2,8 @@
 layout: post
 title: On 16 Personalities
 description: My thoughts about the theory behind [16 Personalities](https://www.16personalities.com)
-categories: daily-journal
+tags: book site
+categories: journal
 ---
 
 ## Fun fact 1: [Thinking (T) Personality](https://www.16personalities.com/articles/nature-thinking-vs-feeling)

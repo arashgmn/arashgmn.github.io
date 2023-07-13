@@ -3,9 +3,9 @@ layout: post
 title: چهار شگفت‌انگیز
 date:  2022-10-16
 description: دسته‌بندی آدما در قبال خودشون و حکومت
-tags: روزنوشت
+tags: social mahsa
 lang: fa
-categories: daily-journal
+categories: journal
 ---
 
 بحث می‌کردیم که یکی از دوستان یه دسته‌بندی جالبی ارائه داد از چهار جنس آدم که با کنش‌های مختلف در برابر سرکوب‌های این روزها. 

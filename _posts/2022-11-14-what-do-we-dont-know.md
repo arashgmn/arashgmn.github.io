@@ -3,7 +3,7 @@ layout: post
 title: Memory
 date:  2022-11-14
 description: A quick mind searching trip to uncover what do we know about the brain
-tags: learning
+tags: reflection PhD
 lang: en
 categories: research
 ---

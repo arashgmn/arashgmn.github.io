@@ -3,8 +3,8 @@ layout: post
 title: حیطه‌ی علم ِ ممنوع
 description: خلاصه‌ی روحیاتم قبل از رفتن به روستوک
 lang: fa
-tags: روزنوشت
-categories: daily-journal
+tags: reflection
+categories: journal
 ---
 
 

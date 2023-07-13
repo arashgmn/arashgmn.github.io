@@ -2,8 +2,8 @@
 layout: post
 title: بهبود شخصیتی ساختارمند
 lang: fa
-tags: روزنوشت
-categories: daily-journal
+tags: reflection
+categories: journal
 ---
 
 # مقدمه

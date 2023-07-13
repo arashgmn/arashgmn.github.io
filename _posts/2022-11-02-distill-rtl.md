@@ -55,7 +55,7 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
-
+published: false
 ---
 
 ## Equations

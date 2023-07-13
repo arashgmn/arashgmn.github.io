@@ -3,9 +3,9 @@ layout: post
 title: Conversation with AI
 date:  2022-11-06
 description: A useful experience with OpenAI's GPT-3 playground 
-tags: learning
+tags: AI
 lang: en
-categories: tech
+categories: fun
 ---
 
 # Background 
