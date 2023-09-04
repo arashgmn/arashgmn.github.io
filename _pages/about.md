@@ -27,3 +27,4 @@ I’m an engineer and a physicist by training, a mathematician by education, a r
 
 I'm living in Germany in the little city of Göttingen, not too far from the grave of Max Plank, David Hilbert, Wilhelm Weber, Felix Klein, Ludwig Prandtl, Max Born, Karl Schwartzshild, and Gauss. But if you are not around, we can get in touch through any of thouse social media icons you see down below. 
 
+If you are would like to know my general point of view, check out [here](/quotes). 
