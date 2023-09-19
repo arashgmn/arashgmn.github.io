@@ -3,7 +3,7 @@ layout: post
 title: لیست خفن
 date:  2022-10-12
 description: مستعصلید؟ لیست خفن بسازید!
-tags: social mahsa reflection
+tags: society mahsa reflection
 lang: fa
 categories: journal
 ---

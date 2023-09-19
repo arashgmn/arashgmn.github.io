@@ -2,7 +2,7 @@
 layout: post
 title: Do things right!
 description: Why one has to do things right
-tags: reflection social
+tags: reflection society
 categories: journal
 ---
  

@@ -3,7 +3,7 @@ layout: post
 title: چهار شگفت‌انگیز
 date:  2022-10-16
 description: دسته‌بندی آدما در قبال خودشون و حکومت
-tags: social mahsa
+tags: society mahsa
 lang: fa
 categories: journal
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  ما قهرمان نیستیم
 date:   2022-09-28
 description: در باب مسئولیت ما در قبال سیستم حکومت
-tags: social
+tags: society
 lang: fa
 categories: journal
 ---

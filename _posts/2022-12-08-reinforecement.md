@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Self-supervision
+title: Reinforcement learning
 date:  2022-12-08
 description: A realization on academia and education
-tags: reflection PhD
+tags: reflection PhD academia
 lang: en
 categories: research
 ---
@@ -14,6 +14,6 @@ Our societal and educational organizations have evolved in such a way that evalu
 
 For whatever set of reasons, it is not the case in majority of cases. This means to advance in career you simply must be more "fit" in the genetic algorithm sense, which always bring a chicken and egg problem. No one knows what is fit, but if you sucseed, you're definetly *fitter*. In such a world, learning in the sense of mismatch minimization is really out of question since the target function is hard to find anyway. But even in cases in which fit can be defined, a person don't get any feedback upon rejection, except the rejection itself. 
 
-This to me sound like we should not really expect to learn in academia (or career) in a supervised manner. But instead, should try to reinforce our learning through environmental cues (reward/punishments). In other words, self-supervised learning is what you need.
+This to me sound like we should not really expect to learn in academia (or career) in a supervised manner. But instead, should try to reinforce our learning through environmental cues (reward/punishments). In other words, self-supervised reinforcement learning is what you need.
 
 
