@@ -1,5 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://arashgmn.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arashgmn.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-03T15:19:47+00:00</updated><id>https://arashgmn.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry xml:lang="en"><title type="html">Bernstein’s Symposium</title><link href="https://arashgmn.github.io/blog/2024/bernstein-synposium/" rel="alternate" type="text/html" title="Bernstein’s Symposium" /><published>2024-10-03T00:00:00+00:00</published><updated>2024-10-03T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2024/bernstein-synposium</id><content type="html" xml:base="https://arashgmn.github.io/blog/2024/bernstein-synposium/"><![CDATA[<p>Bernstein conference of this year had a useful PhD symposium. My takeaway is to be aware of these:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://arashgmn.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arashgmn.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-12T13:07:40+00:00</updated><id>https://arashgmn.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry xml:lang="en"><title type="html">Learning From Trajectories</title><link href="https://arashgmn.github.io/blog/2024/skip_connections/" rel="alternate" type="text/html" title="Learning From Trajectories" /><published>2024-10-12T00:00:00+00:00</published><updated>2024-10-12T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2024/skip_connections</id><content type="html" xml:base="https://arashgmn.github.io/blog/2024/skip_connections/"><![CDATA[<blockquote class="block-tip">
+  <h5 id="note">NOTE</h5>
+
+  <p>This post contains a potentially publishable idea in machine learning. I cannot pursue it due to time constraints. But if you do, please link to this post, or even better, drop me short email. Maybe then I have more free time to investigate this. If you are aware of a publication with similar idea, please also let me know. I can then remove this note and cite them here. Thanks!</p>
+</blockquote>
+
+<p>In computational neuroscience, it is widely accepted that the momentary state of neurons \(X(t)\) represent the task they are ought to performed. Whether its classifying a previously shown stimlus into a few categories, memorizing it, or predicting what comes next. A goal of the downstream set of neurons is to see that and transform this state \(X(t)\) to that useful target computation \(y\). The key, however, is that the computation must be embedded in the <strong>instanteneous</strong> state. But in reality, the downsteam neurons are not merely some memoryless machines that map \(X(t)\) to \(y\). I suspect that is just a computational simplification. The downstream neurons integrate whatever they see from \(X(t)\), and maintain a trace of it, and potentially compute not just using the momentary input \(X(t)\), but also its (recent) past.</p>
+
+<p>Think about a simple system that has only two neurons, whose momentary rates can be shown as a point in the 2D plane. You are the downstream system which has to infer the state to do computation. Let’s say at time \(t\), system is at state \(X(t) = (x_1(t), x_2(t))\). But now, assume, in addition to the state, you have access to some memory of the history of \(X\), i.e., its trajectory. Obviously now you can do more computation inputs can be separated based on their trajectories as well. Simply put, now, not only you care about the state, but aslo <em>how</em> that state was realized. This naturally  gives you the ability to form a context-dependent computaiton.</p>
+
+<div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/trajectory-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/trajectory-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/trajectory-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/trajectory.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>This might seem trivial in the world of recurrent neural networks (RNN). But what about deep neural nets (DNN)? In fact, DNNs, too, leverage from the trajectory, sort of. Let’s first clarify the concept of time in DNN. Time, at best, is only present through the index of the layer that is processing the input. As the input goes through each layer, it transforms, in the same way it evolves in time in the case of RNNs. Now, what if we garrant the last layer, the readout, access to the intermediate transformations of the input, i.e., its “temporal trajectory”? Then, the last layer will know how exactly an input is transformed, step by step, to give raise to that last activation map. These are exactly the skip connections, or skip pathways <a href="https://en.wikipedia.org/wiki/U-Net">U-net architecture</a>, for instance.</p>
+
+<p>I have highlight that this idea stresses mainly on the importance of the last layer. This is not typical in skip connections (as we see the in <a href="https://en.wikipedia.org/wiki/Residual_neural_network">residual nets</a>). My gut feeling says that this architecture helps a lot to alleviate adversarial attacks since it can track the evolution of the input and potentially figure out something is not right in the evolution trajectory. Would be very nice to try it out and see if that its really the case or not.</p>
+
+<div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/traj_arch-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/traj_arch-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/traj_arch-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/traj_arch.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>]]></content><author><name></name></author><category term="PhD," /><category term="ML," /><category term="NeuroSci" /><summary type="html"><![CDATA[A reinterpretation of the skip connections in deep learning]]></summary></entry><entry xml:lang="en"><title type="html">Bernstein’s Symposium</title><link href="https://arashgmn.github.io/blog/2024/bernstein-synposium/" rel="alternate" type="text/html" title="Bernstein’s Symposium" /><published>2024-10-03T00:00:00+00:00</published><updated>2024-10-03T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2024/bernstein-synposium</id><content type="html" xml:base="https://arashgmn.github.io/blog/2024/bernstein-synposium/"><![CDATA[<p>Bernstein conference of this year had a useful PhD symposium. My takeaway is to be aware of these:</p>
 
 <ul>
   <li><strong>upward management</strong>: How to manage your advisor</li>
@@ -85,30 +135,4 @@ There’s this idea of “write everyday” (not to get better at writing, rathe
       <p>Consider the U.S. working culture context which applies to this podcast. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name></name></author><category term="academic" /><category term="writing" /><category term="amplified" /><category term="podcast" /><category term="academia" /><summary type="html"><![CDATA[Academic writing (ep. 2)]]></summary></entry><entry xml:lang="fa"><title type="html">برداشت من از راه باریک آزادی</title><link href="https://arashgmn.github.io/blog/2023/narrow-road-of-freedom/" rel="alternate" type="text/html" title="برداشت من از راه باریک آزادی" /><published>2023-06-29T00:00:00+00:00</published><updated>2023-06-29T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2023/narrow-road-of-freedom</id><content type="html" xml:base="https://arashgmn.github.io/blog/2023/narrow-road-of-freedom/"><![CDATA[<p>این پست خلاصه‌ی برداشت منه از پادکست <a href="https://castbox.fm/vb/574772283">محمدفاضلی</a> «راه باریک آزادی» عجم‌اوغلو و رابینسون.</p>
-
-<h1 id="کدام-آزادی-و-چرا-راه-باریک">کدام آزادی و چرا راه باریک؟</h1>
-<p>همان آزادی‌ِ مورد نظر زن‌زندگی‌آزادی و به این دلیل که چنان آزادی‌ای یک تعادل ناپایدار دینامیکه.</p>
-
-<ul>
-  <li>تعریف آزادی تو این کتاب (که ارجاع به چند فیلسوف دیگه هم دادن) ارتباط محکمی داره با نترسیدن از خشونت دیگری (چه شخص یا نهاد) و تحمیل نشدن نوع خاصی از زندگی. سه مولفه برای آزادی تعریف میشه: ۱. عدم سلطه  ۲. امکان انتخاب عمل  ۳. امکان احقاق عمل. اولی پیشنیاز دومیه، اما دومی بدون داشتن سومی کافی نیست. مثلا شما اگه بتونی استارتاپت رو بزنی، با وجود مونوپولی آمازون و گوگل عملا ممکنه امکان رقابت نداشته باشی (عدم امکان احقاق هدف). برای همین قوانین ضد مونوپولی گذاشته شده.</li>
-  <li>مساله‌ی آزادی مساله‌ی تعادل حکومت(بالادستان) و مردمه(فرودستان). این که قدرت این دوتا باید نه تنها متناسب باشه، که با هم پیشرفت کنه. قدرت زیاد مردم میشه جنگ همه علیه همه با شکست کامل حکومت (مثل سومالی یا کنیا؟). قدرت مهارنشده‌ی حکومت میشه ضحاک و گیلگمش. اون وسط میشه همون راه باریک.</li>
-  <li>این که اصلا چرا باید مردم طرف مقابلشون حکومت باشه که اتفاقا قدرت هم داره، سوال مهمیه. اما جواب‌های زیادی داری از جنس اجتماعی، توسعه زیرساخت و امنیت فیزیکی و اجتماعی و … .</li>
-  <li>جدا از این که چرا حکومت به وجود اومده باید توجه کرد که میزان قدرتش همبستگی خاصی با توانایی (یا خواست) جکومت برای پاسخ به نیازی که براش به وجود اومده نداره. حکومت می‌تونه قدرتمند باشه اما هیچ توسعه‌ی اقتصادی ایجاد نکنه (سرکوب‌گر باشه). می‌تونه قدرت داشته باشه، حتی سرکوب کنه اما چیزهایی رو توسعه بده. اما نمی‌تونه بی‌قدرت کاری بکنه. پس (یه جورایی بنا به تعریف وجودیش) حکومت باید دارای یه قدرتی باشه.</li>
-  <li>
-    <p>سوال بعدی اینه که وقتی این حکومت داره قدرتمند میشه، چطور سمت دیگه باید چه کار کنه. به وضوح باید اون هم قدرتمند بشه. اما نکته اینه که بر عکس سیستم (نسبتا مرکزگرای) حکومت، مردم اساسا از همه لحاظ پراکنده هستن (چه قدرت اقتصادی، سیاسی، تمایلات و …). بنابراین دو مساله‌ی خیلی مهم به وجود میاد:</p>
-
-    <p><strong>۱) چطور میشه مردم رو هماهنگ کرد؟</strong></p>
-
-    <p><strong>۲) چه دینامیکی از تقابل بین مردم و حکومت می‌تونه جامعه رو در راه باریک ببره جلو؟</strong></p>
-  </li>
-  <li>مساله‌ی هماهنگی خودش دو ویژگی مهم داره:
-    <ul>
-      <li>اول این کنش جمعی (برای هم‌افزایی قدرت‌ها) باید امکان‌پذیر باشه − حکومت‌ها تمایل دارن که این امکان رو بگیرن. بنابراین داخل همین پیش‌نیاز یک تضاد منافع سنگین هست به ضرر مردم. از اون بدتر این که قوانین خوب و کامل هم لزوما کمکی به خل ماجرا نمی‌کنه. مادامی که حکومت نتونه یا نخواد قوانین رو اجرا کنه و مردم نتونن (با تجمع قدرتشون) به حکومت فشار بیارن، قانونی اجرا نمیشه. خلاصه مرغ است و تخم‌مرع.</li>
-      <li>مورد دوم این که حتی اگر بتوان کنش جمعی داشت، سواری مجانی گرفتن پدیده‌ی رایجیه که ممکنه کل کنش رو به فنا بده: مساله چیزیه از جنس <em>چرا باید مالیات داد پقتی همه مالیات میدن؟</em> فرق این مورد با قبلی اینه که توی این مورد خود رفتار خود مردمه که اثرگذاره و نه حکومت.</li>
-    </ul>
-  </li>
-  <li>من باب دینامیک تقابل بین دو گروه، ایده این که نباید بازی جمع صفر باشه. در غیر این صورت یکی دیگری رو نابود خواهد کرد. باید دینامیکی ساخت که بشه داخلش Trade-off و این حالت برای هر دو از حالت یکی برنده منفعت بیشتری (یا ضرر کمتری) داشته باشه.</li>
-</ul>
-
-<p>بقیه‌ی کتاب مثال‌هایی از این نظریه در کشورهای دیگه است.</p>]]></content><author><name></name></author><category term="dirancast" /><category term="book" /><category term="podcast" /><category term="society" /><summary type="html"><![CDATA[The narrow corridor]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><category term="academic" /><category term="writing" /><category term="amplified" /><category term="podcast" /><category term="academia" /><summary type="html"><![CDATA[Academic writing (ep. 2)]]></summary></entry></feed>
