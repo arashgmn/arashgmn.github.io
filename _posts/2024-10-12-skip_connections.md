@@ -4,7 +4,7 @@ title: Learning From Trajectories
 date: 2024-10-12
 description: A reinterpretation of the skip connections in deep learning
 lang: en
-tags: PhD, ML, NeuroSci
+tags: PhD ML NeuroSci
 ---
 
 > ##### NOTE
