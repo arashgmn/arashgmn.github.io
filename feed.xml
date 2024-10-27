@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://arashgmn.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arashgmn.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-26T23:37:03+00:00</updated><id>https://arashgmn.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry xml:lang="en"><title type="html">Learning From Trajectories</title><link href="https://arashgmn.github.io/blog/2024/skip_connections/" rel="alternate" type="text/html" title="Learning From Trajectories" /><published>2024-10-12T00:00:00+00:00</published><updated>2024-10-12T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2024/skip_connections</id><content type="html" xml:base="https://arashgmn.github.io/blog/2024/skip_connections/"><![CDATA[<blockquote class="block-tip">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://arashgmn.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://arashgmn.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-27T11:25:22+00:00</updated><id>https://arashgmn.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry xml:lang="en"><title type="html">Motivated by Fear</title><link href="https://arashgmn.github.io/blog/2024/fear/" rel="alternate" type="text/html" title="Motivated by Fear" /><published>2024-10-27T00:00:00+00:00</published><updated>2024-10-27T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2024/fear</id><content type="html" xml:base="https://arashgmn.github.io/blog/2024/fear/"><![CDATA[<p>I often hear that to do science one must “like it” or “have fun with it”. But I just don’t get it. I understand why doing stuff becuase of its fun is so advantageous. But, not everyone does what he/she likes. Often times people do stuff because that’s the most feasible/reliable/safest thing to do.</p>
+
+<p>Recently, I’m facing some sort of a challenge in my research, which is totally expected. Doing a PhD was never supposed to be easy after all. Yet, it prevents me from swithching to projects, and it seems unsolvable (at least with my current level of knowledge). I tried learning new things to be able to solve it, but the truth is, I don’t feel any progress and the sense of stagnation is bothering me a lot lately.</p>
+
+<p>I’ve become fearful. Scared of lack of productivity (over months), and questioning if research is suitable for me. I think I like doing research, but my mental energy says something else. It’s becoming harder and harder for me to approach this challenge. Every time, soon after I start, I feel exhausted.</p>
+
+<p>There are two important things to note:</p>
+
+<ol>
+  <li>Sometimes it makes sense to just pick up something else, and place the current work on hold, at some corner of your mind. A new project that is different enought and one that you know you can progress quickly. This helps.</li>
+  <li>The “happy academics” are often professors. I have rarely seen any happy <em>junior</em> researcher. I don’t think having fun is the rule. Those who do have fun with research and do have the privilege to do so are lucky. But not everyone is. Not every on is happy. Some, can be motivated by fear, and I think that’s OK.</li>
+</ol>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0z2bufPrU83RRPRaboj3B7?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>]]></content><author><name></name></author><category term="research" /><category term="reflection" /><category term="PhD" /><summary type="html"><![CDATA[I often hear that to do science one must “like it” or “have fun with it”. But I just don’t get it. I understand why doing stuff becuase of its fun is so advantageous. But, not everyone does what he/she likes. Often times people do stuff because that’s the most feasible/reliable/safest thing to do.]]></summary></entry><entry xml:lang="en"><title type="html">Learning From Trajectories</title><link href="https://arashgmn.github.io/blog/2024/skip_connections/" rel="alternate" type="text/html" title="Learning From Trajectories" /><published>2024-10-12T00:00:00+00:00</published><updated>2024-10-12T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2024/skip_connections</id><content type="html" xml:base="https://arashgmn.github.io/blog/2024/skip_connections/"><![CDATA[<blockquote class="block-tip">
   <h5 id="note">NOTE</h5>
 
   <p>This post contains a potentially publishable idea in machine learning. I cannot pursue it due to time constraints. But if you do, please link to this post, or even better, drop me short email. Maybe then I have more free time to investigate this. If you are aware of a publication with similar idea, please also let me know. I can then remove this note and cite them here. Thanks!</p>
@@ -49,7 +62,7 @@
 
 </figure>
 
-</div>]]></content><author><name></name></author><category term="PhD," /><category term="ML," /><category term="NeuroSci" /><summary type="html"><![CDATA[A reinterpretation of the skip connections in deep learning]]></summary></entry><entry xml:lang="en"><title type="html">Bernstein’s Symposium</title><link href="https://arashgmn.github.io/blog/2024/bernstein-synposium/" rel="alternate" type="text/html" title="Bernstein’s Symposium" /><published>2024-10-03T00:00:00+00:00</published><updated>2024-10-03T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2024/bernstein-synposium</id><content type="html" xml:base="https://arashgmn.github.io/blog/2024/bernstein-synposium/"><![CDATA[<p>Bernstein conference of this year had a useful PhD symposium. My takeaway is to be aware of these:</p>
+</div>]]></content><author><name></name></author><category term="PhD" /><category term="ML" /><category term="NeuroSci" /><summary type="html"><![CDATA[A reinterpretation of the skip connections in deep learning]]></summary></entry><entry xml:lang="en"><title type="html">Bernstein’s Symposium</title><link href="https://arashgmn.github.io/blog/2024/bernstein-synposium/" rel="alternate" type="text/html" title="Bernstein’s Symposium" /><published>2024-10-03T00:00:00+00:00</published><updated>2024-10-03T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2024/bernstein-synposium</id><content type="html" xml:base="https://arashgmn.github.io/blog/2024/bernstein-synposium/"><![CDATA[<p>Bernstein conference of this year had a useful PhD symposium. My takeaway is to be aware of these:</p>
 
 <ul>
   <li><strong>upward management</strong>: How to manage your advisor</li>
@@ -112,27 +125,4 @@
 
 <p>Both are equally reasonable. But since I’m exposed to the latter more (as I spend more time on it), I’m already biased to it, and am rejecting the arguments of the review article at my hand, simply it isn’t confirming my (biased) point of view.</p>
 
-<p>Yeah, yeah. We’re all like that. But it’s truly worrisome.</p>]]></content><author><name></name></author><category term="academia" /><category term="research" /><summary type="html"><![CDATA[Do we have deduction power? Really?]]></summary></entry><entry xml:lang="en"><title type="html">Don’t write everyday</title><link href="https://arashgmn.github.io/blog/2023/dont-write-everyday/" rel="alternate" type="text/html" title="Don’t write everyday" /><published>2023-09-19T00:00:00+00:00</published><updated>2023-09-19T00:00:00+00:00</updated><id>https://arashgmn.github.io/blog/2023/dont-write-everyday</id><content type="html" xml:base="https://arashgmn.github.io/blog/2023/dont-write-everyday/"><![CDATA[<p>I found the <a href="https://rephonic.com/podcasts/academic-woman-amplified">Academic Writing Ampified</a> podcast a while ago. It’s by an academic lady who is mostly focusing on empowering women, giving them voice, and generally help them out with the overally masculine environment of academia. Yet, so points that she raises are general and everyone can learn from them. So, here we are. I guess I’ll write this gist of some episodes here time to time.</p>
-
-<p># 
-There’s this idea of “write everyday” (not to get better at writing, rather to get things done<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. Nevertheless, her points are valid also for those who want to write, just to improve their writing, and don’t feel an academic pressure). She claims that the idea has flaws because:</p>
-
-<ol>
-  <li>What if you can’t for whatever reason? You feel guilt.</li>
-  <li>What you might be doning by that? Forcing yourself to do the writing sometimes in the least efficient time, causing the more fraustration.</li>
-  <li>Insisting on it, specially if the number 2 applies, is actually bad because it conditions you to do dedicate wrong time to one of the most important time.</li>
-</ol>
-
-<p>The solution is not not being persistent and consistant, but identifying the more effective time<strong>s</strong>. Here’s how it goes:</p>
-
-<p>She suggest to mark a calendar week by 4 colors to highlight the quality and the extent of focus for writing. Colors indicate somethings like “awesome super writing time”, “Okish time”, “more easily distracted than focused”, “impossible to work”. Such marking excercise will start to show the efficiency pattern during the day and across week days. Note that because of several other responsibilities (like teaching, meeting, etc.), the times doesn’t have to be the same for every day.</p>
-
-<p>Once the times are identified, one has to make the habbit (so conditioning - number 3) to book these times for stromy writing. If not possible, the second best times (we don’t want to make <em>“hey I really don’t have any time to do the actual writing”</em> kind of excuses). And make sure to try to free up the best possible times for yourself. Even if you have teaching obligations, try to change it.</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Consider the U.S. working culture context which applies to this podcast. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name></name></author><category term="academic" /><category term="writing" /><category term="amplified" /><category term="podcast" /><category term="academia" /><summary type="html"><![CDATA[Academic writing (ep. 2)]]></summary></entry></feed>
+<p>Yeah, yeah. We’re all like that. But it’s truly worrisome.</p>]]></content><author><name></name></author><category term="academia" /><category term="research" /><summary type="html"><![CDATA[Do we have deduction power? Really?]]></summary></entry></feed>
