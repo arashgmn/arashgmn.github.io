@@ -7,11 +7,11 @@
  ******************************************************************************/
 :root {
   --global-bg-color: #ffffff;
-  --global-code-bg-color: rgba(15, 52, 196, 0.05);
+  --global-code-bg-color: rgba(6, 128, 95, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #0f34c4;
-  --global-hover-color: #0f34c4;
+  --global-theme-color: #06805f;
+  --global-hover-color: #06805f;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: rgb(244.75, 244.75, 244.75);
@@ -40,8 +40,8 @@ html[data-theme=dark] {
   --global-code-bg-color: #2c3237;
   --global-text-color: rgb(244.75, 244.75, 244.75);
   --global-text-color-light: rgb(244.75, 244.75, 244.75);
-  --global-theme-color: #2698BA;
-  --global-hover-color: #2698BA;
+  --global-theme-color: #04a077;
+  --global-hover-color: #04a077;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: rgb(244.75, 244.75, 244.75);
   --global-footer-text-color: #1C1C1D;
@@ -408,6 +408,19 @@ footer.sticky-bottom {
 .cv .card {
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
+}
+.cv .card table {
+  color: var(--global-text-color);
+}
+.cv .card table.table-dark {
+  background-color: transparent;
+}
+.cv .card table td,
+.cv .card table th,
+.cv .card table.table-dark td,
+.cv .card table.table-dark th {
+  background-color: transparent;
+  border-color: var(--global-divider-color);
 }
 .cv .card .list-group-item {
   background-color: inherit;
