@@ -371,6 +371,22 @@ footer.sticky-bottom {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
 
+    table {
+      color: var(--global-text-color);
+    }
+
+    table.table-dark {
+      background-color: transparent;
+    }
+
+    table td,
+    table th,
+    table.table-dark td,
+    table.table-dark th {
+      background-color: transparent;
+      border-color: var(--global-divider-color);
+    }
+
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
@@ -975,4 +991,3 @@ nav[data-toggle="toc"] {
     top: 0;
   }
 }
-

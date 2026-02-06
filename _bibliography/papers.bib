@@ -1,84 +1,76 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{bonnin2023,
+  title = {High-Resolution Analysis of Bound {{Ca2}}+ in Neurons and Synapses},
+  author = {Bonnin, Elisa A. and Golmohammadi, Arash and Rehm, Ronja and Tetzlaff, Christian and Rizzoli, Silvio O.},
+  date = {2023-10-13},
+  journaltitle = {Life Science Alliance},
+  volume = {7},
+  number = {1},
+  eprint = {37833073},
+  eprinttype = {pubmed},
+  publisher = {Life Science Alliance},
+  issn = {2575-1077},
+  doi = {10.26508/lsa.202302030},
+  html = {https://www.life-science-alliance.org/content/7/1/e202302030},
+  urldate = {2023-11-22},
+  abstract = {Calcium (Ca2+) is a well-known second messenger in all cells, and is especially relevant for neuronal activity. Neuronal Ca2+ is found in different forms, with a minority being freely soluble in the cell and more than 99\% being bound to proteins. Free Ca2+ has received much attention over the last few decades, but protein-bound Ca2+ has been difficult to analyze. Here, we introduce correlative fluorescence and nanoscale secondary ion mass spectrometry imaging as a tool to describe bound Ca2+. As expected, bound Ca2+ is ubiquitous. It does not correlate to free Ca2+ dynamics at the whole-neuron level, but does correlate significantly to the intensity of markers for GABAergic pre-synapse and glutamatergic post-synapses. In contrast, a negative correlation to pre-synaptic activity was observed, with lower levels of bound Ca2+ observed in the more active synapses. We conclude that bound Ca2+ may regulate neuronal activity and should receive more attention in the future.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@online{golmohammadi2024,
+  title = {Robust {{Computation}} with {{Intrinsic Heterogeneity}}},
+  author = {Golmohammadi, Arash and Tetzlaff, Christian},
+  date = {2024-12-06},
+  eprint = {2412.05126},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.2412.05126},
+  html = {http://arxiv.org/abs/2412.05126},
+  urldate = {2025-11-28},
+  abstract = {Intrinsic within-type neuronal heterogeneity is a ubiquitous feature of biological systems, with well-documented computational advantages. Recent works in machine learning have incorporated such diversities by optimizing neuronal parameters alongside synaptic connections and demonstrated state-of-the-art performance across common benchmarks. However, this performance gain comes at the cost of significantly higher computational costs, imposed by a larger parameter space. Furthermore, it is unclear how the neuronal parameters, constrained by the biophysics of their surroundings, are globally orchestrated to minimize top-down errors. To address these challenges, we postulate that neurons are intrinsically diverse, and investigate the computational capabilities of such heterogeneous neuronal parameters. Our results show that intrinsic heterogeneity, viewed as a fixed quenched disorder, often substantially improves performance across hundreds of temporal tasks. Notably, smaller but heterogeneous networks outperform larger homogeneous networks, despite consuming less data. We elucidate the underlying mechanisms driving this performance boost and illustrate its applicability to both rate and spiking dynamics. Moreover, our findings demonstrate that heterogeneous networks are highly resilient to severe alterations in their recurrent synaptic hyperparameters, and even recurrent connections removal does not compromise performance. The remarkable effectiveness of heterogeneous networks with small sizes and relaxed connectivity is particularly relevant for the neuromorphic community, which faces challenges due to device-to-device variability. Furthermore, understanding the mechanism of robust computation with heterogeneity also benefits neuroscientists and machine learners.},
+  pubstate = {prepublished},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@online{golmohammadi2025,
+  title = {Skewed {{Neuronal Heterogeneity Enhances Efficiency On Various Computing Systems}}},
+  author = {Golmohammadi, Arash and Luboeinski, Jannik and Tetzlaff, Christian},
+  date = {2025-12-01},
+  eprint = {2412.05126},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.2412.05126},
+  html = {http://arxiv.org/abs/2412.05126},
+  urldate = {2025-12-31},
+  abstract = {Heterogeneity is a ubiquitous property of many biological systems and has profound implications for computation. While it is conceivable to optimize neuronal and synaptic heterogeneity for a specific task, such top-down optimization is biologically implausible, prone to catastrophic forgetting, and both data- and energy-intensive. In contrast, biological organisms, with remarkable capacity to perform numerous tasks with minimal metabolic cost, exhibit a heterogeneity that is inherent, stable during adulthood, and task-unspecific. Inspired by this intrinsic form of heterogeneity, we investigate the utility of variations in neuronal time constants for solving hundreds of distinct temporal tasks of varying complexity. Our results show that intrinsic heterogeneity significantly enhances performance and robustness in an implementation-independent manner, indicating its usefulness for both (rate-based) machine learning and (spike-coded) neuromorphic applications. Importantly, only skewed heterogeneity profiles-reminiscent of those found in biology-produce such performance gains. We further demonstrate that this computational advantage eliminates the need for large networks, allowing comparable performance with substantially lower operational, metabolic, and energetic costs, respectively in silico, in vivo, and on neuromorphic hardware. Finally, we discuss the implications of intrinsic (rather than task-induced) heterogeneity for the design of efficient artificial systems, particularly novel neuromorphic devices that exhibit similar device-to-device variability.},
+  pubstate = {prepublished}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{golmohammadi2025a,
+  title = {A {{Computational Study}} on the {{Activation}} of {{Neural Transmission}} in {{Deep Brain Stimulation}}},
+  author = {Golmohammadi, Arash and Payonk, Jan Philipp and family=Rienen, given=Ursula, prefix=van, useprefix=true and Appali, Revathi},
+  date = {2025-03},
+  journaltitle = {IEEE Trans Biomed Eng},
+  volume = {72},
+  number = {3},
+  eprint = {39480713},
+  eprinttype = {pubmed},
+  pages = {1132--1147},
+  issn = {1558-2531},
+  doi = {10.1109/TBME.2024.3489799},
+  html = {https://ieeexplore.ieee.org/document/10740646/},
+  abstract = {Deep brain stimulation (DBS) is an established treatment for neurodegenerative movement disorders such as Parkinson's disease that mitigates symptoms by overwriting pathological signals from the central nervous system to the motor system. Nearly all computational models of DBS, directly or indirectly, associate clinical improvements with the extent of fiber activation in the vicinity of the stimulating electrode. However, it is not clear how such activation modulates information transmission. Here, we use the exact cable equation for straight or curved axons and show that DBS segregates the signaling pathways into one of the three communicational modes: complete information blockage, uni-, and bi-directional transmission. Furthermore, all these modes respond to the stimulating pulse in an asynchronous but frequency-locked fashion. Asynchrony depends on the geometry of the axon, its placement and orientation, and the stimulation protocol. At the same time, the electrophysiology of the nerve determines frequency-locking. Such a trimodal response challenges the notion of activation as a binary state and studies that correlate it with the DBS outcome. Importantly, our work suggests that a mechanistic understanding of DBS action relies on distinguishing between these three modes of information transmission.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{yilmaz2025,
+  title = {Immunoglobulin Divalence Promotes {{B-cell}} Antigen Receptor Cluster Scale-Dependent Functions},
+  author = {Yilmaz, Erdem and Rahimi, Amirmohammad and Münchhalfen, Matthias and Alevra, Mihai and Golmohammadi, Arash and Tetzlaff, Christian and Opazo, Felipe and Engels, Niklas},
+  date = {2025-09},
+  journaltitle = {Cell Mol Immunol},
+  volume = {22},
+  number = {9},
+  pages = {1093--1108},
+  publisher = {Nature Publishing Group},
+  issn = {2042-0226},
+  doi = {10.1038/s41423-025-01327-1},
+  html = {https://www.nature.com/articles/s41423-025-01327-1},
+  urldate = {2025-12-31},
+  abstract = {Antibodies, also known as immunoglobulins, share an evolutionarily conserved dimeric core structure with two antigen binding sites. However, recognition of foreign molecules can be achieved by monovalent binding domains, as evidenced by the T-cell antigen receptor and various innate immune receptors. Thus, the reason for the strict evolutionary conservation of immunoglobulin divalence remains unclear. In addition to being soluble immune effector molecules, each immunoglobulin is also expressed as a membrane-bound isoform in the context of the B-cell antigen receptor (BCR). Here, we generated monovalent BCRs and found that their signaling and antigen internalization capabilities were strongly impaired. By using advanced superresolution imaging of BCRs following stimulation with antigens of distinct valences, we showed that the receptor cluster scale in the plasma membrane determines the magnitude of intracellular signaling. The incorporation of additional ITAMs into single BCRs did not increase receptor sensitivity but caused cellular desensitization. Our results demonstrate that the BCR-controlled signaling machinery senses the clustering status of the BCR and that subtle changes in cluster sizes are translated into cellular responses. These findings improve our knowledge of adaptive immune receptor function and will aid in the design of synthetic chimeric antigen receptors.}
 }
