@@ -251,6 +251,14 @@ defaults:
       related_posts: false
       toc:
         sidebar: left
+  
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "projects" 
+    values:
+      related_posts: false
+      toc:
+        sidebar: left
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
