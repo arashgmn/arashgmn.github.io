@@ -1,7 +1,7 @@
 ---
 layout: post
 title: بیهوده بودن
-date: 2026-03-28
+date: 2026-03-28-02:00
 description: 
 lang: fa
 tags: 
