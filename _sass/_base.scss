@@ -26,6 +26,15 @@ strong {
   }
 }
 
+
+// To change the ordered list language, depending on the language
+// of the page, we should change the symbol of the ordered list... 
+// Perhaps this is usefull: 
+// https://css-tricks.com/ordered-lists-unicode-symbols/
+// ol {
+//}
+
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
