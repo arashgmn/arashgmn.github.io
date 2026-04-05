@@ -17,11 +17,11 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: "Vazirmatn"; //change the font for rtl scripts
+  font-family: var(--global-font-family-main);//"Merriweather"; //change the font for rtl scripts
   
   [dir=rtl] & {
     span {
-      font-family: monospace; //except of the code blocks
+      font-family: var(--global-font-family-code);//monospace; //except of the code blocks
     }
   }
 }
