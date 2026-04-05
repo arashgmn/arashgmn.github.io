@@ -7,6 +7,6 @@ importance: 4
 category: personal
 published: true
 lang: en
-redirect: https://arashgmn.github.io/deescalation-explorer/
+redirect: https://arashgmn.github.io/action-landscape/
 ---
 
